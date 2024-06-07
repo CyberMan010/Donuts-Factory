@@ -10,7 +10,7 @@
 // else
 //  alert("Welcome Ms " + name)
 
-// Q7
+// // Q7
 
 // for (let i = 0; i <= 5; i++) {
 //     alert(i);
@@ -63,45 +63,45 @@
 // Q11
 
 
-    let sum = 0;
+  //   let sum = 0;
   
-    for (let i = 0; i <= number; i++) {
-      sum += i;
-    }
+  //   for (let i = 0; i <= number; i++) {
+  //     sum += i;
+  //   }
   
-    return sum;
-  
-  
-  const userNumber = parseInt(prompt("Enter an integer: "));
+  //   return sum;
   
   
-  if (!isNaN(userNumber)) {
-    const sum = calculateSum(userNumber);
-    alert("The sum of integers from 0 to " + userNumber + " is: " + sum);
-  } else {
-    alert("Invalid input. Please enter a valid integer.");
-  }
+  // const userNumber = parseInt(prompt("Enter an integer: "));
+  
+  
+  // if (!isNaN(userNumber)) {
+  //   const sum = calculateSum(userNumber);
+  //   alert("The sum of integers from 0 to " + userNumber + " is: " + sum);
+  // } else {
+  //   alert("Invalid input. Please enter a valid integer.");
+  // }
 
-
-// let name = prompt("enter your name")
-// let userGender;
-
-// while (userGender !== "male" && userGender !== "female") {
-//   userGender = prompt("Enter your gender:").toLowerCase();
-        
+// let finden = function(){
+//   let name = prompt("enter your name")
+//   let userGender;
+  
+//   while (userGender !== "male" && userGender !== "female") {
+//     userGender = prompt("Enter your gender:").toLowerCase();
+          
+//   }
+//   if(userGender == 'male')
+//       alert("Welcome Mr " + name);
+//   else
+//    alert("Welcome Ms " + name)
+//   console.log(userGender + name)
+  
 // }
-// if(userGender == 'male')
-//     alert("Welcome Mr " + name);
-// else
-//  alert("Welcome Ms " + name)
-// console.log(userGender + name)
+// finden();
 
 // let userInfo = [];
 
-// function askQuestion(question) {
-//   const answer = prompt(question);
-//   return answer;
-// }
+
 
 // const userName = askQuestion("Enter your username: ");
 // const gender = userGender;
@@ -131,5 +131,6 @@
 // let details = [name, userGender, order, "Bakery"]
 
 // console.log(details);
+// ----------------------------------------------------------------
 
-
+document.getElementById("main").innerHTML = "This is Dounts treasure pick one !";
