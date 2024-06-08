@@ -134,3 +134,26 @@
 // ----------------------------------------------------------------
 
 document.getElementById("main").innerHTML = "This is Dounts treasure pick one !";
+
+
+// function myFunction() {
+//   for (let i = 0; i < 5; i++){
+//     let make = prompt("call me");
+//     // Create an "li" node:
+//     let node = document.createElement("li");
+
+//     // Create a text node:
+//     let textnode = document.createTextNode(make);
+    
+//     // Append the text node to the "li" node:
+//     node.appendChild(textnode);
+    
+//     // Append the "li" node to the list:
+//     document.getElementById("ol1").appendChild(node);
+//   }
+  
+  
+// }
+
+// myFunction();
+
