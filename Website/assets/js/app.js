@@ -157,3 +157,28 @@ document.getElementById("main").innerHTML = "This is Dounts treasure pick one !"
 
 // myFunction();
 
+// ----------------------------------------------------------
+// -EventTask-:
+const user = document.getElementById("user").value;
+const age = document.getElementById("age").value;
+const order = document.getElementById("order").value;
+const gender = document.getElementById("gender").value;
+const check = document.getElementById("checking")
+const form = document.getElementById("uform");
+const par = document.getElementById("info");
+handler = document.getElementById("handler").value;
+form.addEventListener('submit', function (event) {
+  event.preventDefault()
+  let messages = []
+  if (gender !== "male" && gender !== "female") {
+    messages.push("Enter a valid gender")
+  }
+par.innerHTML = "Username : " + user
+  + "Age: " + age
+  + "Order type: " + order
+  + "Gender" + gender;
+});
+
+
+
+
